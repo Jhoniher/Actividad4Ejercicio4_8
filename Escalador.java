@@ -27,4 +27,7 @@ public class Escalador extends Ciclista {
         System.out.println("Aceleracion promedio="+aceleracionPromedio);
         System.out.println("Grado de rampa="+gradoRampa);
     }
+    protected String imprimirTipo(){
+        return "Es un escalador";
+    }
 }
