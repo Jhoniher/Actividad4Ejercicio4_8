@@ -37,7 +37,7 @@ public class Equipo {
     void buscarCiclista(){
         Scanner sc=new Scanner(System.in);
         String nombreCiclista=sc.next();
-        for(int i=0; i<lista.Ciclistas.size();i++){
+        for(int i=0; i<listaCiclistas.size();i++){
             Ciclista c=(Ciclista)listaCiclistas.elementAt(i);
             if(c.getNombre().equals(nombreCiclista)){
                 System.out.println(c.getNombre());
